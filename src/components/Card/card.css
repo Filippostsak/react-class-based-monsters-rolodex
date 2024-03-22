@@ -1,0 +1,17 @@
+.card-container {
+  padding: 0 1rem;
+  box-shadow: 0.1rem 0.1rem 3rem 0.1rem rgb(236, 156, 233);
+  background: linear-gradient(to right, red, yellow);
+  border-radius: 5px;
+}
+
+.card-h2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-style: italic;
+  letter-spacing: 0.2rem;
+}
+
+.card-p {
+  font-size: 1.4rem;
+}

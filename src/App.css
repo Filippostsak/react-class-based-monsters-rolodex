@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap");
+.nova-script-regular {
+  font-family: "Nova Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --font-loved: "Loved by the king", cursive;
+  --font-header: "Nova Script", system-ui;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.loved-by the king-regular {
+  font-family: "Loved by the King", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-size: 10px;
+  font-family: var(--font-loved);
+  background: linear-gradient(to right, rgb(210, 25, 210), rgb(102, 102, 227));
+}
+
+.app-title {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  font-family: var(--font-header);
+  text-shadow: 1rem 1rem 1rem red;
+}
